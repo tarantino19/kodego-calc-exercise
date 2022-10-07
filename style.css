@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: tomato;
+}
+
+.calculator-container {
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.btn {
+    padding: 24px 40px;
+    background-color: tomato;
+    width: 100px;
+    border: 1px solid rgb(48, 47, 46);
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(255, 72, 39);
+    color: whitesmoke;
+}
+
+.calc-display {
+    font-size: 2rem;
+}
+
+.btn-clear {
+    width: 100%;
+}
+
+
+
+
+
