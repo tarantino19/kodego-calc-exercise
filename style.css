@@ -30,10 +30,12 @@ body {
 .btn:hover {
     background-color: rgb(255, 72, 39);
     color: whitesmoke;
+    font-weight: 500;
 }
 
 .calc-display {
     font-size: 2rem;
+    color: black;
 }
 
 .btn-clear {
